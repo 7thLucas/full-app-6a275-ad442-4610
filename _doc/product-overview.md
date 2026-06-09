@@ -17,7 +17,7 @@ Skeet.cc (skeet.cc) is a modern web application built for skeet shooting clubs, 
 - **Club Roster Management** — Member database with contact details, classification history, and activity records
 
 ## Positioning
-A purpose-built .NET tool that elevates the professionalism of any shooting club. Skeet.cc brings the reliability and speed of native Windows software to a workflow that has historically run on pen, paper, and improvised spreadsheets — giving clubs and shooters a single, authoritative record of every round ever fired.
+A purpose-built web platform that elevates the professionalism of any shooting club. Skeet.cc brings the reliability and speed of modern web software to a workflow that has historically run on pen, paper, and improvised spreadsheets — giving clubs and shooters a single, authoritative record of every round ever fired.
 
 ## Brand & Tone
 - **Name**: Skeet.cc
