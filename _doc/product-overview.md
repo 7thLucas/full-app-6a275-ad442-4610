@@ -26,8 +26,8 @@ A purpose-built web platform that elevates the professionalism of any shooting c
 - **Aesthetic**: Outdoors palette — deep forest green primary (#1a4731), clay orange accent (#e85d04), slate-800/900 for body text
 
 ## Scope
-- Windows .NET desktop application (WPF or .NET MAUI)
-- Offline-capable with local SQLite database; no cloud dependency required
+- Web application accessible at skeet.cc
+- Offline-capable; no cloud dependency required for competition day
 - Export to PDF and CSV for score sheets, reports, and ATA/NSSA submission
 
 ## Strategic Principles
