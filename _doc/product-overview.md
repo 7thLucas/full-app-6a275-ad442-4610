@@ -21,7 +21,7 @@ A purpose-built web platform that elevates the professionalism of any shooting c
 
 ## Brand & Tone
 - **Name**: Skeet.cc
-- **Platform**: .NET Windows desktop application
+- **Platform**: Web application (skeet.cc)
 - **Tone**: Professional, precise, sport-focused — no fluff, no clutter
 - **Aesthetic**: Outdoors palette — deep forest green primary (#1a4731), clay orange accent (#e85d04), slate-800/900 for body text
 
