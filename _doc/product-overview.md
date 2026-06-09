@@ -1,7 +1,7 @@
 # Skeet.cc — Product Overview
 
 ## What It Is
-Skeet.cc is a modern .NET desktop application with a polished user interface built for skeet shooting clubs, range operators, and competitive shooters. It replaces paper scorecards and ad-hoc spreadsheets with a dedicated, professional tool that centralises score entry, competition management, and performance analytics in one fast, reliable Windows program.
+Skeet.cc (skeet.cc) is a modern web application built for skeet shooting clubs, range operators, and competitive shooters. It replaces paper scorecards and ad-hoc spreadsheets with a dedicated, professional tool that centralises score entry, competition management, and performance analytics in one fast, reliable web platform.
 
 ## Users / Personas
 - **Club Administrators** — Manage membership rosters, schedule competitions, and maintain club-wide statistics
