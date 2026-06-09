@@ -1,0 +1,118 @@
+<style>
+  .mode-landscape .sl-layout   { flex-direction: row; }
+  .mode-portrait  .sl-layout   { flex-direction: column; }
+  .mode-landscape .sl-problem  { width: 44%; }
+  .mode-landscape .sl-solution { width: 56%; }
+  .mode-portrait  .sl-problem  { width: 100%; flex: 1; }
+  .mode-portrait  .sl-solution { width: 100%; flex: 1; }
+</style>
+
+<section class="w-full h-full overflow-auto bg-white">
+  <div class="sl-layout flex h-full">
+
+    <!-- ── Left: The Problem ── -->
+    <div class="sl-problem flex flex-col justify-center p-10" style="background:#fdf8f5;">
+
+      <div class="flex items-center gap-2 mb-5">
+        <div class="w-2 h-2 rounded-full" style="background:#e85d04;"></div>
+        <span class="text-xs font-bold tracking-widest uppercase" style="color:#e85d04;">The Problem</span>
+      </div>
+
+      <h2 class="font-black mb-6"
+          style="font-size:1.65rem;color:#0f1a14;line-height:1.2;letter-spacing:-0.02em;">
+        Paper Cards, Spreadsheets, and Costly Errors
+      </h2>
+
+      <ul class="flex flex-col gap-4">
+        <li class="flex items-start gap-3">
+          <span class="mt-0.5 w-5 h-5 rounded-full flex items-center justify-center flex-shrink-0"
+                style="background:#fde8d8;">
+            <svg width="10" height="10" viewBox="0 0 10 10" fill="none">
+              <line x1="2.5" y1="2.5" x2="7.5" y2="7.5" stroke="#e85d04" stroke-width="1.8" stroke-linecap="round"/>
+              <line x1="7.5" y1="2.5" x2="2.5" y2="7.5" stroke="#e85d04" stroke-width="1.8" stroke-linecap="round"/>
+            </svg>
+          </span>
+          <span class="text-sm leading-relaxed" style="color:#475569;">Manual tallying errors invalidate results and create disputes on competition day</span>
+        </li>
+        <li class="flex items-start gap-3">
+          <span class="mt-0.5 w-5 h-5 rounded-full flex items-center justify-center flex-shrink-0"
+                style="background:#fde8d8;">
+            <svg width="10" height="10" viewBox="0 0 10 10" fill="none">
+              <line x1="2.5" y1="2.5" x2="7.5" y2="7.5" stroke="#e85d04" stroke-width="1.8" stroke-linecap="round"/>
+              <line x1="7.5" y1="2.5" x2="2.5" y2="7.5" stroke="#e85d04" stroke-width="1.8" stroke-linecap="round"/>
+            </svg>
+          </span>
+          <span class="text-sm leading-relaxed" style="color:#475569;">Spreadsheets have no institutional memory — shooter history is fragmented or lost entirely</span>
+        </li>
+        <li class="flex items-start gap-3">
+          <span class="mt-0.5 w-5 h-5 rounded-full flex items-center justify-center flex-shrink-0"
+                style="background:#fde8d8;">
+            <svg width="10" height="10" viewBox="0 0 10 10" fill="none">
+              <line x1="2.5" y1="2.5" x2="7.5" y2="7.5" stroke="#e85d04" stroke-width="1.8" stroke-linecap="round"/>
+              <line x1="7.5" y1="2.5" x2="2.5" y2="7.5" stroke="#e85d04" stroke-width="1.8" stroke-linecap="round"/>
+            </svg>
+          </span>
+          <span class="text-sm leading-relaxed" style="color:#475569;">Leaderboards and post-event reports take hours to compile by hand after every shoot</span>
+        </li>
+        <li class="flex items-start gap-3">
+          <span class="mt-0.5 w-5 h-5 rounded-full flex items-center justify-center flex-shrink-0"
+                style="background:#fde8d8;">
+            <svg width="10" height="10" viewBox="0 0 10 10" fill="none">
+              <line x1="2.5" y1="2.5" x2="7.5" y2="7.5" stroke="#e85d04" stroke-width="1.8" stroke-linecap="round"/>
+              <line x1="7.5" y1="2.5" x2="2.5" y2="7.5" stroke="#e85d04" stroke-width="1.8" stroke-linecap="round"/>
+            </svg>
+          </span>
+          <span class="text-sm leading-relaxed" style="color:#475569;">Generic software doesn't understand ATA/NSSA classes, event formats, or scoring rules</span>
+        </li>
+      </ul>
+    </div>
+
+    <!-- ── Right: The Solution ── -->
+    <div class="sl-solution relative overflow-hidden flex flex-col" style="background:#1a4731;">
+      <img
+        src="https://api.qb-deck.quantumbyte.ai/common/image-generation?prompt=clean%20modern%20Windows%20desktop%20software%20scorecard%20dashboard%2C%20dark%20green%20forest%20and%20clay%20orange%20UI%2C%20professional%20sports%20management%20application%2C%20flat%20editorial%20style"
+        alt="Skeet.cc application UI"
+        class="absolute inset-0 w-full h-full object-cover"
+        style="opacity:0.32;"
+      />
+      <div class="absolute inset-0"
+           style="background:linear-gradient(180deg,rgba(26,71,49,0.45) 0%,rgba(26,71,49,0.94) 55%);"></div>
+
+      <div class="relative flex flex-col justify-end h-full p-10">
+        <div class="flex items-center gap-2 mb-5">
+          <div class="w-2 h-2 rounded-full" style="background:#e85d04;"></div>
+          <span class="text-xs font-bold tracking-widest uppercase" style="color:#e85d04;">The Solution</span>
+        </div>
+
+        <h2 class="font-black text-white mb-4"
+            style="font-size:1.75rem;line-height:1.2;letter-spacing:-0.02em;">
+          Skeet.cc — One Dedicated .NET App for Everything at the Range
+        </h2>
+
+        <p class="text-sm leading-relaxed mb-6" style="color:rgba(255,255,255,0.75);max-width:380px;">
+          A purpose-built Windows application that replaces paper and spreadsheets with a fast, accurate, offline-capable platform that speaks the language of the sport.
+        </p>
+
+        <div class="flex flex-wrap gap-2">
+          <span class="px-3 py-1 rounded-full text-xs font-semibold"
+                style="background:rgba(232,93,4,0.28);color:#ffb07c;border:1px solid rgba(232,93,4,0.45);">
+            ATA &amp; NSSA Standards
+          </span>
+          <span class="px-3 py-1 rounded-full text-xs font-semibold"
+                style="background:rgba(255,255,255,0.12);color:rgba(255,255,255,0.88);border:1px solid rgba(255,255,255,0.22);">
+            Offline-First
+          </span>
+          <span class="px-3 py-1 rounded-full text-xs font-semibold"
+                style="background:rgba(255,255,255,0.12);color:rgba(255,255,255,0.88);border:1px solid rgba(255,255,255,0.22);">
+            Live Leaderboards
+          </span>
+          <span class="px-3 py-1 rounded-full text-xs font-semibold"
+                style="background:rgba(255,255,255,0.12);color:rgba(255,255,255,0.88);border:1px solid rgba(255,255,255,0.22);">
+            PDF &amp; CSV Export
+          </span>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
