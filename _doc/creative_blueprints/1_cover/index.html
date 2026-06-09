@@ -1,0 +1,72 @@
+<style>
+  .mode-landscape .sl-layout { flex-direction: row; }
+  .mode-portrait  .sl-layout { flex-direction: column; }
+  .mode-landscape .sl-left  { width: 52%; padding: 3rem; }
+  .mode-landscape .sl-right { width: 48%; }
+  .mode-portrait  .sl-left  { width: 100%; padding: 2.5rem 2.5rem 1.5rem; }
+  .mode-portrait  .sl-right { width: 100%; flex: 1; }
+</style>
+
+<section class="w-full h-full overflow-auto bg-white">
+  <div class="sl-layout flex h-full">
+
+    <!-- ── Left: content ── -->
+    <div class="sl-left flex flex-col justify-between">
+
+      <!-- Top block -->
+      <div>
+        <!-- Wordmark pill -->
+        <div class="flex items-center gap-2 mb-10">
+          <div class="w-2 h-2 rounded-full" style="background:#e85d04;"></div>
+          <span class="text-xs font-bold tracking-widest uppercase" style="color:#1a4731;">Skeet.cc</span>
+        </div>
+
+        <!-- Headline -->
+        <h1 class="font-black leading-none mb-5"
+            style="font-size:2.9rem;color:#0f1a14;letter-spacing:-0.035em;line-height:1.04;">
+          The Range<br/>Deserves<br/>Better<br/>Software.
+        </h1>
+
+        <!-- Tagline -->
+        <p class="text-base leading-relaxed" style="color:#475569;max-width:310px;">
+          A modern .NET application for skeet clubs and competitive shooters — purpose-built for the range, not the boardroom.
+        </p>
+      </div>
+
+      <!-- Bottom: rule + attribution -->
+      <div>
+        <div class="flex items-center gap-3 mb-4">
+          <div class="h-px flex-1" style="background:#e2e8f0;"></div>
+          <span class="text-xs tracking-widest uppercase font-semibold" style="color:#94a3b8;">Windows .NET</span>
+        </div>
+        <data-attribution />
+      </div>
+    </div>
+
+    <!-- ── Right: hero image ── -->
+    <div class="sl-right relative overflow-hidden" style="background:#1a4731;">
+      <img
+        src="https://api.qb-deck.quantumbyte.ai/common/image-generation?prompt=clay%20target%20skeet%20shooting%20sport%2C%20vibrant%20orange%20clay%20disc%20soaring%20against%20deep%20blue%20sky%2C%20cinematic%20sports%20editorial%20photography%2C%20dramatic%20natural%20light%2C%20high%20contrast"
+        alt="Clay target in flight"
+        class="w-full h-full object-cover"
+        style="opacity:0.72;"
+      />
+      <!-- Tinted overlay -->
+      <div class="absolute inset-0"
+           style="background:linear-gradient(160deg,rgba(26,71,49,0.62) 0%,rgba(232,93,4,0.14) 100%);"></div>
+
+      <!-- Frosted stat callout -->
+      <div class="absolute bottom-10 left-8 right-8">
+        <div class="inline-flex flex-col gap-1 rounded-2xl p-5"
+             style="background:rgba(255,255,255,0.13);backdrop-filter:blur(10px);border:1px solid rgba(255,255,255,0.22);">
+          <span class="font-black text-white"
+                style="font-size:2.4rem;letter-spacing:-0.025em;line-height:1;">25/25</span>
+          <span class="text-sm font-medium" style="color:rgba(255,255,255,0.82);">
+            Perfect round. Track every one.
+          </span>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
