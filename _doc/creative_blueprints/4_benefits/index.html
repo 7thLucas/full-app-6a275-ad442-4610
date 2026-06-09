@@ -1,0 +1,80 @@
+<style>
+  .mode-landscape .sl-metrics { grid-template-columns: repeat(3, 1fr); }
+  .mode-portrait  .sl-metrics { grid-template-columns: repeat(2, 1fr); }
+  .mode-landscape .sl-roi     { flex-direction: row; }
+  .mode-portrait  .sl-roi     { flex-direction: column; }
+  .mode-landscape .sl-roi-img { width: 35%; min-width: 130px; }
+  .mode-portrait  .sl-roi-img { height: 110px; width: 100%; }
+</style>
+
+<section class="w-full h-full overflow-auto bg-white">
+  <div class="flex flex-col h-full p-10">
+
+    <!-- ── Header ── -->
+    <div class="mb-6">
+      <div class="flex items-center gap-2 mb-2">
+        <div class="w-2 h-2 rounded-full" style="background:#e85d04;"></div>
+        <span class="text-xs font-bold tracking-widest uppercase" style="color:#1a4731;">Benefits</span>
+      </div>
+      <h2 class="font-black" style="font-size:1.85rem;color:#0f1a14;letter-spacing:-0.025em;line-height:1.15;">
+        Measurable outcomes for your club.
+      </h2>
+    </div>
+
+    <!-- ── Metric cards ── -->
+    <div class="sl-metrics grid gap-4 mb-5">
+
+      <!-- Speed -->
+      <div class="rounded-xl p-5 flex flex-col gap-1" style="background:#1a4731;">
+        <span class="text-xs font-semibold uppercase tracking-wide" style="color:rgba(255,255,255,0.55);">Speed</span>
+        <span class="font-black text-white" style="font-size:2rem;line-height:1.1;letter-spacing:-0.03em;">2-click</span>
+        <span class="text-xs leading-relaxed" style="color:rgba(255,255,255,0.72);">Every action reachable in two clicks or fewer — scorers stay focused on the field, not the screen</span>
+      </div>
+
+      <!-- Accuracy -->
+      <div class="rounded-xl p-5 flex flex-col gap-1" style="background:#f8fafc;border:1px solid #e2e8f0;">
+        <span class="text-xs font-semibold uppercase tracking-wide" style="color:#94a3b8;">Accuracy</span>
+        <span class="font-black" style="font-size:2rem;line-height:1.1;letter-spacing:-0.03em;color:#e85d04;">Zero</span>
+        <span class="text-xs leading-relaxed" style="color:#64748b;">Manual tallying errors eliminated through built-in validation and automatic running totals</span>
+      </div>
+
+      <!-- Uptime -->
+      <div class="rounded-xl p-5 flex flex-col gap-1" style="background:#f8fafc;border:1px solid #e2e8f0;">
+        <span class="text-xs font-semibold uppercase tracking-wide" style="color:#94a3b8;">Uptime</span>
+        <span class="font-black" style="font-size:2rem;line-height:1.1;letter-spacing:-0.03em;color:#0f1a14;">100%</span>
+        <span class="text-xs leading-relaxed" style="color:#64748b;">Offline-first architecture — competition never depends on internet connectivity at the range</span>
+      </div>
+
+    </div>
+
+    <!-- ── ROI summary block ── -->
+    <div class="sl-roi flex rounded-2xl overflow-hidden flex-1" style="background:#0f1a14;min-height:0;">
+
+      <!-- Text -->
+      <div class="flex flex-col justify-center p-8 flex-1">
+        <span class="text-xs font-bold tracking-widest uppercase mb-3" style="color:#e85d04;">The Bottom Line</span>
+        <h3 class="font-black text-white mb-3"
+            style="font-size:1.35rem;line-height:1.28;letter-spacing:-0.02em;">
+          One app. Every round, every shooter, every competition — recorded, accurate, and always ready.
+        </h3>
+        <p class="text-sm leading-relaxed" style="color:rgba(255,255,255,0.62);">
+          Skeet.cc gives clubs a permanent, searchable record of all activity; gives shooters the performance data they need to improve; and gives administrators the tools to run professional events without the manual overhead.
+        </p>
+      </div>
+
+      <!-- Image accent -->
+      <div class="sl-roi-img relative overflow-hidden flex-shrink-0">
+        <img
+          src="https://api.qb-deck.quantumbyte.ai/common/image-generation?prompt=shooting%20sports%20trophy%20and%20clay%20target%20medal%20on%20dark%20background%2C%20editorial%20photography%2C%20forest%20green%20and%20orange%20accent%20lighting%2C%20professional%20award%20ceremony%20atmosphere"
+          alt="Competition award"
+          class="w-full h-full object-cover"
+          style="opacity:0.52;"
+        />
+        <div class="absolute inset-0"
+             style="background:linear-gradient(90deg,rgba(15,26,20,0.85) 0%,rgba(15,26,20,0.05) 100%);"></div>
+      </div>
+
+    </div>
+
+  </div>
+</section>
